@@ -143,6 +143,6 @@ Please fork the repo and create a pull request.
 [forks-shield]: https://img.shields.io/github/forks/AndrewGemi/PIC_8259A.svg?style=for-the-badge
 [forks-url]: https://github.com/AndrewGemi/PIC_8259A/network/members
 
-[VerilogIcon]: https://img.shields.io/badge/Verilog-123456?style=flat&logo=verilog
+[VerilogIcon]: https://img.shields.io/badge/Verilog-BoldTextHere?style=flat&logo=verilog&color=brightgreen
 [Verilog-url]: https://www.accellera.org/standards/vlog 
 
