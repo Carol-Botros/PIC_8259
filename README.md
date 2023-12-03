@@ -28,7 +28,7 @@
       <ul>
         <li><a href="#For-Collaborators">For Collaborators</a>
 	      <ul>
-        	<li><a href="#Initializing">Initializing</a></li>
+        	<li><a href="#initializing-first-time-only">Initializing</a></li>
        		<li><a href="#Pushing-into-Fork">Pushing into Fork</a></li>
      	      </ul>
 	</li>
