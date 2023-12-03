@@ -39,8 +39,7 @@
      	        </ul>
 	</li>
       </ul>
-
-    </li>
+   </li>
   </ol>
 </details>
 
