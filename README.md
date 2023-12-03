@@ -10,7 +10,7 @@
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 <!-- TABLE OF CONTENTS -->
