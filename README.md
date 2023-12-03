@@ -10,7 +10,7 @@
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 <!-- TABLE OF CONTENTS -->
@@ -49,8 +49,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]()
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -60,7 +58,7 @@
 ### Built With
 
 
-* [![Verilog]VerilogIcon]][Verilog-url]
+* [![Verilog][VerilogIcon]][Verilog-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
