@@ -41,7 +41,7 @@ module In_Service (
         end
     end
 
-    // Additional logic for computing the next ISR values
+    // Additional logic for computing the next ISR 
     function logic [7:0] update_isr(logic [7:0] isr, logic [7:0] irq, logic eoi);
         logic [7:0] next_isr;
         logic [7:0] next_highest;
@@ -50,7 +50,7 @@ module In_Service (
         next_highest = 8'b00000000;
         for (int i = 0; i < 8; i = i + 1) begin
             if (irq[i] && ~isr[i]) begin
-                next_highest = i;
+                next_highest = i + 1;
                 break;
             end
         end
@@ -59,14 +59,14 @@ module In_Service (
         next_isr = isr;
         if (eoi) begin
             // If EOI is true, clear the highest priority interrupt
-            next_isr[next_highest] = 0;
+            next_isr[next_highest - 1] = 0;
         end else if (next_highest != 8'b00000000) begin
             // If there is a valid highest priority interrupt, set it in the ISR
-            next_isr[next_highest] = 1;
+            next_isr[next_highest - 1] = 1;
         end
 
         // Return the computed values
-        update_isr = {next_isr, next_highest};
+        update_isr = next_isr;
     endfunction
 
 endmodule
